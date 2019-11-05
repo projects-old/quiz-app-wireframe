@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  background: linear-gradient(-90deg, rgb(240, 240, 245), rgb(250, 250, 250));
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+button, input {
+  background: rgb(216, 216, 201);
+  color: rgb(70, 70, 57);
+}

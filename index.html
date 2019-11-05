@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Graybox wireframe for quiz app ideas" />
+     <!-- Stylesheet and Google Fonts -->
+      <link href="wireframe.css" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Overpass|Roboto&display=swap" rel="stylesheet">
+      <title>Phoenix Street Names Quiz App - Wireframe</title>
+  </head>
+  <body>
+    <header>
+      <h1>Phoenix Street Names Quiz</h1>
+       <p>Think you know everything about how the City of Phoenix got its street names? Take the quiz to find out!</p>
+    </header>
+    <!--Question Page-->
+      <form role="form" action="/quiz" accept-charset="UTF-8" class="quiz">
+        <fieldset>
+          <legend>
+            <p>How did Jomax Road get its name?</p>
+           </legend>
+              <ol type="A">
+                <li><label for="answerA">It was named after a jackrabbit.</label><option id="answerA" name="answer" value="0"></li>
+                <li><label for="answerB">It was named after an Indian tribe.</label><option id="answerB" name="answer" value="1"></li>
+                <li><label for="answerC">It was named for two ladies named Josephine and Maxine.</label><option id="answerC" name="answer" value="2"></li>
+                <li><label for="answerD">It was a named after the Jomax mountain range north of Phoenix.</label><option id="answerD" name="answer" value="3"></li>
+              </ol>
+              <input type="submit">
+        </fieldset>
+      </form>
+  <!--Feedback Page-->
+      <h2>Sorry, that's incorrect...</h2>
+      <p>The correct answer was C.</p>
+      <button id="nextQuestionButton">Next question</button>
+  <!--Score Page-->
+      <h2>Not bad! You finished the quiz!</h2>
+      <p>you scored 8/10</p>
+      <p>You know Phoenix pretty well!<p>
+      <button id="restartQuizButton">Restart Quiz</button>
+  </body>
+</html>
